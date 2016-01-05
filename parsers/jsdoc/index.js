@@ -44,7 +44,7 @@ function parse(dirname) {
         });
 
         // Javascript files
-        var jsFilepaths = glob.sync("*.js", {
+        var jsFilepaths = glob.sync("**/*.js", {
             cwd: dirname,
             realpath: true
         });
